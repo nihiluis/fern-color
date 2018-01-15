@@ -1,0 +1,10 @@
+[package]
+name = "simplecolortest"
+version = "0.1.0"
+authors = ["Alex Smith <>"]
+
+[dependencies]
+log = "0.4"
+fern = "0.5.2"
+simplecolor = { git = "https://github.com/nihiluis/simplecolor" }
+fern-simplecolor = { path = "../" }

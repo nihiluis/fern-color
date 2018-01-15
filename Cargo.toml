@@ -1,0 +1,8 @@
+[package]
+name = "fern-color"
+version = "0.1.0"
+authors = ["Alex Smith <donnytyler.com>"]
+
+[dependencies]
+log = "0.4"
+simplecolor = { git = "https://github.com/nihiluis/simplecolor" }
